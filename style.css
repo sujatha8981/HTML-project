@@ -105,17 +105,41 @@ footer{
     text-decoration: none;
 Color:#666
 }
+
+
 #a1,#a2,#a3{
     display: inline-block;
 }
 #img1,#img2,#img3{
+    width: 120px;
+    height: 90px;
+}
+#img1,#img2,#img3{
     width: 100px;
     height: 70px;
+    margin: 50px;
+}
+#img1:hover,#img2:hover,#img3:hover{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    cursor: pointer;
 }
 .section3{
     text-align: center;
     font-size: 1cm;
-    margin-top: 15px;
+    margin: auto;
     background-color: #222;
-    padding: 10px;
+    padding-top: 10px;
+    width: 1100px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#about-us{
+    background-color: #666;
+    padding: 8px;
+    margin-top: -5px;
+
 }
