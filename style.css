@@ -105,3 +105,21 @@ footer{
     text-decoration: none;
 Color:#666
 }
+
+#aboutus.head{
+
+}
+#a1,#a2,#a3{
+    display: inline-block;
+}
+#img1,#img2,#img3{
+    width: 100px;
+    height: 70px;
+}
+.section3{
+    text-align: center;
+    font-size: 1cm;
+    margin-top: 15px;
+    background-color: #222;
+    padding: 10px;
+}
