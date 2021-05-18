@@ -107,19 +107,19 @@ Color:#666
 }
 
 
-#a1,#a2,#a3{
+#a1,#a2,#a3,#a4{
     display: inline-block;
 }
-#img1,#img2,#img3{
+#img1,#img2,#img3,#img4{
     width: 120px;
     height: 90px;
 }
-#img1,#img2,#img3{
+#img1,#img2,#img3,#img4{
     width: 100px;
     height: 70px;
     margin: 50px;
 }
-#img1:hover,#img2:hover,#img3:hover{
+#img1:hover,#img2:hover,#img3:hover,#img4:hover{
     width: 100px;
     height: 100px;
     margin: 25px;
@@ -129,16 +129,15 @@ Color:#666
     text-align: center;
     font-size: 1cm;
     margin: auto;
-    background-color: #222;
+    background-color: sandybrown;
     padding-top: 10px;
     width: 1100px;
     border-radius: 25px;
     overflow: hidden;
-    margin-top: 40px;
-    margin-bottom: 20px;
+margin-top: -30px;
 }
 #about-us{
-    background-color: #666;
+    background-color: sienna;
     padding: 8px;
     margin-top: -5px;
 
