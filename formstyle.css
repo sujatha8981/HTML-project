@@ -34,3 +34,16 @@ footer{
 }
 
 
+.img1{
+    height: 500px;
+    width: 500px;
+    background: url(https://i.pinimg.com/originals/5d/ec/d1/5decd1fb777f2014a40906a8b02d5821.jpg) no-repeat;
+    background-size: contain;
+}
+.quote{
+    height: 10vh;
+    width: 85%;
+    
+    position: absolute;
+    top: 70%;
+}
