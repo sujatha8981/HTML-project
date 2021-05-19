@@ -6,10 +6,10 @@ body{
 }
 form{
     position: center;
-    background-image: url("https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    border : dotted;
+    border-radius: 9mm;
+    background-color: darkred;
     padding-left: 1cm;
-    border-style: dotted;
-    border-spacing: 5cm;
     color: red;
 }
 button{
@@ -33,17 +33,9 @@ footer{
     background-image: url("http://getwallpapers.com/wallpaper/full/4/e/5/942599-download-wildlife-backgrounds-for-desktop-1920x1080.jpg");
 }
 
-
-.img1{
-    height: 500px;
-    width: 500px;
-    background: url(https://i.pinimg.com/originals/5d/ec/d1/5decd1fb777f2014a40906a8b02d5821.jpg) no-repeat;
-    background-size: contain;
-}
 .quote{
     height: 10vh;
     width: 85%;
-    
     position: absolute;
     top: 70%;
 }
