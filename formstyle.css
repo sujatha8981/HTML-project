@@ -1,0 +1,27 @@
+body{
+        padding: 1cm;
+        border-color: olive;
+        background-color: olive;
+
+}
+form{
+    position: center;
+    background-image: url("https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    padding-left: 1cm;
+    border-style: dotted;
+    border-spacing: 5cm;
+    color: red;
+}
+button{
+     color :red;
+}
+h1{
+    padding-left: 3cm;
+    align-self: center;
+    position: center;
+}
+img{
+     height : 200px;
+     width: 200px;
+}
+
