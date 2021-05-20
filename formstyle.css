@@ -1,16 +1,8 @@
 body{
-        padding: 30mm;
         border-color: olive;
         background-color: olive;
+        border:dotted;
 
-}
-form{
-    position: center;
-    border : dotted;
-    border-radius: 9mm;
-    background-color: darkred;
-    padding-left: 1cm;
-    color: red;
 }
 button{
      color :red;
@@ -29,9 +21,7 @@ marquee{
     scroll-padding: 3cm;
 }
 
-footer{
-    background-image: url("http://getwallpapers.com/wallpaper/full/4/e/5/942599-download-wildlife-backgrounds-for-desktop-1920x1080.jpg");
-}
+
 
 .quote{
     height: 10vh;
@@ -39,3 +29,9 @@ footer{
     position: absolute;
     top: 70%;
 }
+form{
+    border:dotted;
+    border-style: groove;
+    padding-left: 5cm;
+}
+
