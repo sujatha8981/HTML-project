@@ -1,9 +1,21 @@
 body{
         border-color: olive;
-        background-color: olive;
-        border:dotted;
+        background-color: olivedrab;
+        border: dotted;
+    
 
 }
+.regf{
+    height: 80vh;
+    width: 50%;
+    background: rgba(0, 0,0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    
+}
+
 button{
      color :red;
 }
@@ -21,14 +33,6 @@ marquee{
     scroll-padding: 3cm;
 }
 
-
-
-.quote{
-    height: 10vh;
-    width: 85%;
-    position: absolute;
-    top: 70%;
-}
 form{
     border:dotted;
     border-style: groove;
