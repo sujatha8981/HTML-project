@@ -1,33 +1,41 @@
 img{
-    height:500px;
+    height:300px;
     width : 500px;
     padding-left: 9cm;
 }
 table{
-    background-color: burlywood ;
+    background:linear-gradient(110deg,#e2ae65,#294725);
     align-content: center;
     border : 1px solid black;
     border-spacing: 15mm;
     border-radius: 9mm;
     box-shadow: chartreuse;
     width: 1500px;
-    
+   
 
 }
+
+
 td{
     
     padding : 3mm;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 500;
     
 }
 th{
-    border:chartreuse;
+    border:rgb(27, 16, 2);
     border-style: ridge;
+    font-size: 40px;
+    font-style: oblique;
 }
 h1{
-    font-size: 80;
-    font-family: monospace;
+    font-size: 45px;
+    font-family: 'Arial Narrow Bold';
     position : center;
-    padding-left: 20cm;
+    font-weight: 500;
+    padding-left: 18cm;
 
 
 }
@@ -36,5 +44,5 @@ h1{
     margin-right: auto;
   }
 body{
-        background-color: darkolivegreen;
+        background: linear-gradient(165deg,#294725,#4b0b4b,#294725);
 }
