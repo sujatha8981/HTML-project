@@ -1,8 +1,9 @@
 body{
-        border-color: olive;
-        background-color: olivedrab;
-        border: dotted;
-    
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg,#71b7e6,#9b59b6);
 
 }
 .regf{
