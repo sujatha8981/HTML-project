@@ -16,36 +16,37 @@
        
         <div class="regf">
             <button><a href="index.html">return home</a></button>
-            <div class="title"><b>Adoption form</b></div>
-            <form action="#">
+            <div class="title"><b>*Adoption form</b></div>
+            <form action="wildlife.php" method="POST">
+                <p>Fields containing * are Mandatory</p>
                 <div class="user_details">
                     <div class="input-box">
-                        <span class="details">Full name</span>
-                        <input type="text" placeholder="Enter your name" required>
+                        <span class="details">*Full name</span>
+                        <input type="text" placeholder="Enter your name" name="fullname" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Username</span>
-                        <input type="text" placeholder="Enter your username" required>
+                        <span class="details">*Username</span>
+                        <input type="text" placeholder="Enter your username" name="username" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Email</span>
-                        <input type="text" placeholder="Enter your mailid" required>
+                        <span class="details">*Email</span>
+                        <input type="text" placeholder="Enter your mailid" name="email"required>
                     </div>
                     
                     <div class="input-box">
-                        <span class="details">Phone</span>
-                        <input type="number" placeholder="Enter your valid ph.no" required>
+                        <span class="details">*Phone</span>
+                        <input type="tel" placeholder="Enter your valid ph.no" name="phone" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Password</span>
-                        <input type="password" placeholder="Enter your Password" required>
+                        <span class="details">*Password</span>
+                        <input type="password" placeholder="Enter your Password" name="password"required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Confirm Password</span>
-                        <input type="password" placeholder="please confirm your Password" required>
+                        <span class="details">*Confirm Password</span>
+                        <input type="password" placeholder="please confirm your Password" name="confirmpassword" required>
                     </div>
                     <div class="gender">
-                        <span class="gender">Gender</span>
+                        <span class="gender">*Gender</span>
                         <div class="category">
                                 <input type="radio" name="gender">
                                 <span class="gender">Male</span>
@@ -64,53 +65,53 @@
                     <div class="input-box">
                         <h1>Identification Details</h1>
                         <span class="details">Pan Card</span>
-                        <input type="number" placeholder="Enter your valid pan no." >
+                        <input type="text" placeholder="Enter your valid pan no." name="pannumber">
                     </div>
                     
                     <div class="input-box">
                     <h1>Animal preferences for adoption</h1>
                     <div class="input-box">
                         <span class="details">Amount Donated</span>
-                        <input type="text" placeholder="Enter the amount">
+                        <input type="number" placeholder="Enter the amount" name="amount">
                     </div>
                     <div class="input-box">
-                        <span class="details">Sancturyname:</span>
-                        <input type="text" placeholder="Enter the sanctuary name">
+                        <span class="details">*Sancturyname:</span>
+                        <input type="text" placeholder="Enter the sanctuary name" name="sanctuaryname" required>
                     </div>  
                         <br><span class="details">Animal</span>
                 
-                <select>
+                <select name="animal">
                     <option value="Select an animal">select an animal</option>
-                    <option value=”Aardvark”>Aardvark</option>
-                    <option value=”Alligator”>Alligator</option>
-                    <option value=”Bear”>Bear</option>
+                    <option value="Aardvark">Aardvark</option>
+                    <option value="Alligator">Alligator</option>
+                    <option value="Bear"></option>Bear</option>
                     <option value=”Camel”>Camel</option>
-                    <option value=”Cheetah”>Cheetah</option>
-                    <option value=”Elephant”>Elephant</option>
-                    <option value=”Flamingo”>Flamingo</option>
+                    <option value="Cheetah">Cheetah</option>
+                    <option value="Elephant">Elephant</option>
+                    <option value="Flamingo">Flamingo</option>
                     <option value=”Giraffe”>Giraffe</option>
-                    <option value=”Gorilla”>Gorilla</option>
-                    <option value=”Hippo”>Hippo</option>
-                    <option value=”Hyena”>Hyena</option>
-                    <option value=”Iguana”>Iguana</option>
-                    <option value=”Kangaroo”>Kangaroo</option>
-                    <option value=”Koala”>Koala</option>
-                    <option value=”Lion”>Lion</option>
-                    <option value=”Monkey”>Monkey</option>
-                    <option value=”Panda”>Panda</option>
-                    <option value=”Parrot”>Parrot</option>
-                    <option value=”Penguin”>Penguin</option>
-                    <option value=”Sloth”>Sloth</option>
-                    <option value=”Snake”>Snake</option>
-                    <option value=”Tiger”>Tiger</option>
-                    <option value=”Turtle”>Turtle</option>
+                    <option value="Gorilla">Gorilla</option>
+                    <option value="Hippo">Hippo</option>
+                    <option value="Hyena">Hyena</option>
+                    <option value="Iguana">Iguana</option>
+                    <option value="Kangaroo">Kangaroo</option>
+                    <option value="Koala">Koala</option>
+                    <option value="Lion">Lion</option>
+                    <option value="Monkey">Monkey</option>
+                    <option value="Panda">Panda</option>
+                    <option value="Parrot">Parrot</option>
+                    <option value="Penguin">Penguin</option>
+                    <option value="Sloth">Sloth</option>
+                    <option value="Snake">Snake</option>
+                    <option value="Tiger">Tiger</option>
+                    <option value="Turtle">Turtle</option>
                     <option value="Walrus">Walrus</option>
                     <option value="Zebra">Zebra</option>
                     </select><br>
                 </div>
-           
+             
                     <div class="button">
-                        <input type="Submit" value="Submit">
+                        <input type="Submit" value="Submit" onclick="alert('Are you submitting the form');">
                     </div>
                     
                     </form>
