@@ -22,7 +22,7 @@ li:hover{
     color: white;
 }
 #logo{
-    width: 110px;
+    width: 100px;
     height: 120px;
     margin-top: 60px;
     border-radius: 2000px;
@@ -52,6 +52,11 @@ li:hover{
 
 }
 .section2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.section3{
     margin-top: 100px;
     margin-bottom: 40px;
 }
@@ -111,35 +116,118 @@ Color:#666
 #a1,#a2,#a3,#a4{
     display: inline-block;
 }
+
+
+
+
 #img1,#img2,#img3,#img4{
-    width: 120px;
-    height: 90px;
-}
-#img1,#img2,#img3,#img4{
-    width: 100px;
-    height: 70px;
-    margin: 50px;
+    width: 80px;
+    height: 60px;
+    margin: 20px;
 }
 #img1:hover,#img2:hover,#img3:hover,#img4:hover{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 50px;
     margin: 25px;
     cursor: pointer;
 }
+
 .section3{
+    text-align: center;
+    font-size: 1cm;
+    margin: auto;
+    background: linear-gradient(140deg,#6e5010,#1e0627);
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.section4{
     text-align: center;
     font-size: 1cm;
     margin: auto;
     background-color: #222;
     padding-top: 10px;
-    width: 1100px;
+    width: 100%;
     border-radius: 25px;
-    overflow: hidden;
-margin-top: auto;
 }
 #about-us{
-    background-color: #666;
+    background-color: rgb(107, 21, 21);
     padding: 8px;
-    margin-top: -5px;
+    margin-top: -10px;
+  
 
+}
+
+#about{
+    background-color: rgb(107, 21, 21);
+    padding: 8px;
+    margin-top: -10px;
+}
+
+.grid{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+}
+
+.grid > article{
+    background: cornsilk;
+    border: none;
+    box-shadow: 7px 7px 10px 0px rgb(58, 2, 49);
+    border-radius: 50px;
+    text-align: center;
+    width: 100%;
+   
+ 
+    
+}
+
+.grid > article img{
+
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 50px;
+    
+}
+
+
+
+.text{
+    padding: 0 20px 20px;
+    font-size: 10px;
+}
+
+.text h3{
+    text-transform: uppercase;
+}
+
+.text button{
+    background: chocolate;
+    border-radius: 20px;
+    border: navajowhite;
+    color: rgb(17, 17, 1);
+    padding: 10px;
+    width: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid > article{
+        text-align: center;
+    }
 }
